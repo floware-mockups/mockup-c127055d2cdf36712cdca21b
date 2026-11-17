@@ -1,0 +1,200 @@
+{
+  "title": "Guida interna ai servizi comunali",
+  "description": "Prototipo per consultare schede dei servizi, filtrare l’elenco per ufficio e proporre aggiornamenti. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Riepilogo della guida interna e accesso rapido alle schede dei servizi comunali.",
+      "metrics": [
+        {
+          "label": "Servizi in guida",
+          "value": "24"
+        },
+        {
+          "label": "Uffici competenti",
+          "value": "6"
+        },
+        {
+          "label": "Aggiornamenti da valutare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Servizio",
+        "Ufficio competente",
+        "Orario",
+        "Tempo medio",
+        "Documenti necessari di esempio"
+      ],
+      "rows": [
+        [
+          "Rinnovo tessera civica",
+          "Ufficio Lumo",
+          "Lun–Ven, 9:00–12:30",
+          "5 giorni",
+          "Modulo di esempio; documento identificativo fittizio"
+        ],
+        [
+          "Richiesta uso sala di quartiere",
+          "Ufficio Vela",
+          "Mar–Gio, 10:00–13:00",
+          "8 giorni",
+          "Modulo di esempio; calendario dell’iniziativa"
+        ],
+        [
+          "Iscrizione al laboratorio del parco",
+          "Ufficio Nubi",
+          "Lun–Ven, 9:30–12:00",
+          "3 giorni",
+          "Scheda di iscrizione fittizia"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-servizi",
+      "title": "Elenco servizi",
+      "description": "Consulta e filtra le schede per ufficio competente. La ricerca può essere usata insieme al filtro.",
+      "metrics": [
+        {
+          "label": "Servizi mostrati",
+          "value": "24"
+        },
+        {
+          "label": "Uffici disponibili",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Servizio",
+        "Ufficio competente",
+        "Orario",
+        "Tempo medio",
+        "Documenti necessari di esempio"
+      ],
+      "rows": [
+        [
+          "Rinnovo tessera civica",
+          "Ufficio Lumo",
+          "Lun–Ven, 9:00–12:30",
+          "5 giorni",
+          "Modulo di esempio; documento identificativo fittizio"
+        ],
+        [
+          "Richiesta uso sala di quartiere",
+          "Ufficio Vela",
+          "Mar–Gio, 10:00–13:00",
+          "8 giorni",
+          "Modulo di esempio; calendario dell’iniziativa"
+        ],
+        [
+          "Iscrizione al laboratorio del parco",
+          "Ufficio Nubi",
+          "Lun–Ven, 9:30–12:00",
+          "3 giorni",
+          "Scheda di iscrizione fittizia"
+        ],
+        [
+          "Richiesta manutenzione area verde",
+          "Ufficio Brina",
+          "Lun–Ven, 8:30–12:00",
+          "6 giorni",
+          "Descrizione dell’intervento; punto di riferimento dell’area"
+        ],
+        [
+          "Consultazione archivio civico",
+          "Ufficio Lumea",
+          "Lun–Gio, 9:00–13:00",
+          "4 giorni",
+          "Modulo di consultazione fittizio"
+        ],
+        [
+          "Richiesta occupazione temporanea",
+          "Ufficio Vela",
+          "Mar–Ven, 9:00–12:30",
+          "10 giorni",
+          "Planimetria di esempio; descrizione dell’uso"
+        ],
+        [
+          "Segnalazione arredo urbano",
+          "Ufficio Brina",
+          "Lun–Ven, 8:30–12:00",
+          "5 giorni",
+          "Descrizione della segnalazione; zona interessata"
+        ],
+        [
+          "Richiesta patrocinio locale",
+          "Ufficio Lumo",
+          "Lun–Gio, 10:00–12:30",
+          "12 giorni",
+          "Proposta dell’iniziativa; calendario indicativo"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "scheda-servizio",
+      "title": "Scheda di dettaglio",
+      "description": "Dettaglio del servizio selezionato, con ufficio competente, orari, tempi medi e documenti di esempio.",
+      "metrics": [
+        {
+          "label": "Tempo medio indicativo",
+          "value": "5 giorni"
+        },
+        {
+          "label": "Ultimo aggiornamento",
+          "value": "12/03/2025"
+        }
+      ],
+      "columns": [
+        "Servizio",
+        "Ufficio competente",
+        "Orario",
+        "Tempo medio",
+        "Documenti necessari di esempio"
+      ],
+      "rows": [
+        [
+          "Rinnovo tessera civica",
+          "Ufficio Lumo",
+          "Lun–Ven, 9:00–12:30",
+          "5 giorni",
+          "Modulo di esempio; documento identificativo fittizio"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "proponi-aggiornamento",
+      "title": "Proponi aggiornamento",
+      "description": "Invia una proposta di revisione per una scheda. La proposta resta da valutare prima della pubblicazione.",
+      "metrics": [
+        {
+          "label": "Proposte da valutare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Servizio",
+        "Ufficio competente",
+        "Orario",
+        "Tempo medio",
+        "Documenti necessari di esempio",
+        "Motivo dell’aggiornamento",
+        "Dettaglio proposto"
+      ],
+      "rows": [],
+      "form": [
+        "Servizio",
+        "Ufficio competente",
+        "Orario",
+        "Tempo medio",
+        "Documenti necessari di esempio",
+        "Motivo dell’aggiornamento",
+        "Dettaglio proposto"
+      ]
+    }
+  ]
+}
